@@ -1,0 +1,339 @@
+{
+  "micro_precision": 0.1727,
+  "micro_recall": 0.71,
+  "micro_f1": 0.2778,
+  "macro_precision": 0.1509,
+  "macro_recall": 0.7269,
+  "macro_f1": 0.2271,
+  "weighted_f1": 0.3937,
+  "hamming_loss": 0.2898,
+  "subset_accuracy": 0.0016,
+  "per_cuisine": {
+    "North Indian": {
+      "precision": 0.6111,
+      "recall": 0.7013,
+      "f1-score": 0.6531,
+      "support": 800
+    },
+    "Chinese": {
+      "precision": 0.4321,
+      "recall": 0.6547,
+      "f1-score": 0.5206,
+      "support": 559
+    },
+    "Fast Food": {
+      "precision": 0.3124,
+      "recall": 0.7182,
+      "f1-score": 0.4354,
+      "support": 401
+    },
+    "Mughlai": {
+      "precision": 0.1749,
+      "recall": 0.675,
+      "f1-score": 0.2778,
+      "support": 200
+    },
+    "Italian": {
+      "precision": 0.2301,
+      "recall": 0.7799,
+      "f1-score": 0.3553,
+      "support": 159
+    },
+    "Bakery": {
+      "precision": 0.1202,
+      "recall": 0.7535,
+      "f1-score": 0.2074,
+      "support": 142
+    },
+    "Continental": {
+      "precision": 0.2828,
+      "recall": 0.8503,
+      "f1-score": 0.4244,
+      "support": 147
+    },
+    "Cafe": {
+      "precision": 0.1847,
+      "recall": 0.6842,
+      "f1-score": 0.2909,
+      "support": 152
+    },
+    "Desserts": {
+      "precision": 0.125,
+      "recall": 0.6803,
+      "f1-score": 0.2112,
+      "support": 122
+    },
+    "South Indian": {
+      "precision": 0.1051,
+      "recall": 0.6917,
+      "f1-score": 0.1824,
+      "support": 120
+    },
+    "Street Food": {
+      "precision": 0.1677,
+      "recall": 0.6864,
+      "f1-score": 0.2696,
+      "support": 118
+    },
+    "American": {
+      "precision": 0.1292,
+      "recall": 0.7625,
+      "f1-score": 0.221,
+      "support": 80
+    },
+    "Pizza": {
+      "precision": 0.0798,
+      "recall": 0.5753,
+      "f1-score": 0.1402,
+      "support": 73
+    },
+    "Mithai": {
+      "precision": 0.1172,
+      "recall": 0.7532,
+      "f1-score": 0.2028,
+      "support": 77
+    },
+    "Burger": {
+      "precision": 0.0776,
+      "recall": 0.6471,
+      "f1-score": 0.1387,
+      "support": 51
+    },
+    "Thai": {
+      "precision": 0.082,
+      "recall": 0.7692,
+      "f1-score": 0.1481,
+      "support": 52
+    },
+    "Asian": {
+      "precision": 0.0788,
+      "recall": 0.7955,
+      "f1-score": 0.1434,
+      "support": 44
+    },
+    "Beverages": {
+      "precision": 0.0399,
+      "recall": 0.6744,
+      "f1-score": 0.0754,
+      "support": 43
+    },
+    "Ice Cream": {
+      "precision": 0.076,
+      "recall": 0.8966,
+      "f1-score": 0.1402,
+      "support": 58
+    },
+    "Mexican": {
+      "precision": 0.0598,
+      "recall": 0.8235,
+      "f1-score": 0.1116,
+      "support": 34
+    },
+    "Biryani": {
+      "precision": 0.0284,
+      "recall": 0.6562,
+      "f1-score": 0.0545,
+      "support": 32
+    },
+    "Seafood": {
+      "precision": 0.0712,
+      "recall": 0.8125,
+      "f1-score": 0.131,
+      "support": 32
+    },
+    "Healthy Food": {
+      "precision": 0.0419,
+      "recall": 0.6552,
+      "f1-score": 0.0788,
+      "support": 29
+    },
+    "European": {
+      "precision": 0.0819,
+      "recall": 0.7419,
+      "f1-score": 0.1474,
+      "support": 31
+    },
+    "Japanese": {
+      "precision": 0.0636,
+      "recall": 0.7333,
+      "f1-score": 0.117,
+      "support": 30
+    }
+  },
+  "raw_report": {
+    "North Indian": {
+      "precision": 0.6111111111111112,
+      "recall": 0.70125,
+      "f1-score": 0.6530849825378346,
+      "support": 800.0
+    },
+    "Chinese": {
+      "precision": 0.43211334120425027,
+      "recall": 0.6547406082289803,
+      "f1-score": 0.5206258890469416,
+      "support": 559.0
+    },
+    "Fast Food": {
+      "precision": 0.3123644251626898,
+      "recall": 0.7182044887780549,
+      "f1-score": 0.43537414965986393,
+      "support": 401.0
+    },
+    "Mughlai": {
+      "precision": 0.17487046632124353,
+      "recall": 0.675,
+      "f1-score": 0.2777777777777778,
+      "support": 200.0
+    },
+    "Italian": {
+      "precision": 0.2300556586270872,
+      "recall": 0.779874213836478,
+      "f1-score": 0.3553008595988539,
+      "support": 159.0
+    },
+    "Bakery": {
+      "precision": 0.12022471910112359,
+      "recall": 0.7535211267605634,
+      "f1-score": 0.20736434108527133,
+      "support": 142.0
+    },
+    "Continental": {
+      "precision": 0.2828054298642534,
+      "recall": 0.8503401360544217,
+      "f1-score": 0.4244482173174873,
+      "support": 147.0
+    },
+    "Cafe": {
+      "precision": 0.1847246891651865,
+      "recall": 0.6842105263157895,
+      "f1-score": 0.2909090909090909,
+      "support": 152.0
+    },
+    "Desserts": {
+      "precision": 0.125,
+      "recall": 0.680327868852459,
+      "f1-score": 0.21119592875318066,
+      "support": 122.0
+    },
+    "South Indian": {
+      "precision": 0.10506329113924051,
+      "recall": 0.6916666666666667,
+      "f1-score": 0.1824175824175824,
+      "support": 120.0
+    },
+    "Street Food": {
+      "precision": 0.16770186335403728,
+      "recall": 0.6864406779661016,
+      "f1-score": 0.26955074875207985,
+      "support": 118.0
+    },
+    "American": {
+      "precision": 0.1292372881355932,
+      "recall": 0.7625,
+      "f1-score": 0.2210144927536232,
+      "support": 80.0
+    },
+    "Pizza": {
+      "precision": 0.07984790874524715,
+      "recall": 0.5753424657534246,
+      "f1-score": 0.14023372287145242,
+      "support": 73.0
+    },
+    "Mithai": {
+      "precision": 0.11717171717171718,
+      "recall": 0.7532467532467533,
+      "f1-score": 0.20279720279720279,
+      "support": 77.0
+    },
+    "Burger": {
+      "precision": 0.07764705882352942,
+      "recall": 0.6470588235294118,
+      "f1-score": 0.13865546218487396,
+      "support": 51.0
+    },
+    "Thai": {
+      "precision": 0.08196721311475409,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.14814814814814814,
+      "support": 52.0
+    },
+    "Asian": {
+      "precision": 0.07882882882882883,
+      "recall": 0.7954545454545454,
+      "f1-score": 0.14344262295081966,
+      "support": 44.0
+    },
+    "Beverages": {
+      "precision": 0.03994490358126722,
+      "recall": 0.6744186046511628,
+      "f1-score": 0.0754226267880364,
+      "support": 43.0
+    },
+    "Ice Cream": {
+      "precision": 0.07602339181286549,
+      "recall": 0.896551724137931,
+      "f1-score": 0.14016172506738545,
+      "support": 58.0
+    },
+    "Mexican": {
+      "precision": 0.05982905982905983,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.11155378486055777,
+      "support": 34.0
+    },
+    "Biryani": {
+      "precision": 0.028416779431664412,
+      "recall": 0.65625,
+      "f1-score": 0.054474708171206226,
+      "support": 32.0
+    },
+    "Seafood": {
+      "precision": 0.07123287671232877,
+      "recall": 0.8125,
+      "f1-score": 0.1309823677581864,
+      "support": 32.0
+    },
+    "Healthy Food": {
+      "precision": 0.04194260485651214,
+      "recall": 0.6551724137931034,
+      "f1-score": 0.07883817427385892,
+      "support": 29.0
+    },
+    "European": {
+      "precision": 0.08185053380782918,
+      "recall": 0.7419354838709677,
+      "f1-score": 0.14743589743589744,
+      "support": 31.0
+    },
+    "Japanese": {
+      "precision": 0.06358381502890173,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.11702127659574468,
+      "support": 30.0
+    },
+    "micro avg": {
+      "precision": 0.17270383937050604,
+      "recall": 0.7099832682654769,
+      "f1-score": 0.27782627673505017,
+      "support": 3586.0
+    },
+    "macro avg": {
+      "precision": 0.15094235899721287,
+      "recall": 0.726884025689025,
+      "f1-score": 0.2271292712205183,
+      "support": 3586.0
+    },
+    "weighted avg": {
+      "precision": 0.31107424631284186,
+      "recall": 0.7099832682654769,
+      "f1-score": 0.39368091795453725,
+      "support": 3586.0
+    },
+    "samples avg": {
+      "precision": 0.18102739019140063,
+      "recall": 0.6920315635832878,
+      "f1-score": 0.27153545460901074,
+      "support": 3586.0
+    }
+  }
+}

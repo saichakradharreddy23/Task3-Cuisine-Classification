@@ -1,0 +1,50 @@
+[
+  {
+    "model_name": "Baseline (Dummy)",
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0,
+    "macro_precision": 0.0,
+    "macro_recall": 0.0,
+    "macro_f1": 0.0,
+    "weighted_f1": 0.0,
+    "hamming_loss": 0.0785,
+    "subset_accuracy": 0.0
+  },
+  {
+    "model_name": "OneVsRest Logistic Regression",
+    "micro_precision": 0.1727,
+    "micro_recall": 0.71,
+    "micro_f1": 0.2778,
+    "macro_precision": 0.1509,
+    "macro_recall": 0.7269,
+    "macro_f1": 0.2271,
+    "weighted_f1": 0.3937,
+    "hamming_loss": 0.2898,
+    "subset_accuracy": 0.0016
+  },
+  {
+    "model_name": "Random Forest Classifier",
+    "micro_precision": 0.5603,
+    "micro_recall": 0.1723,
+    "micro_f1": 0.2636,
+    "macro_precision": 0.4218,
+    "macro_recall": 0.0847,
+    "macro_f1": 0.1229,
+    "weighted_f1": 0.2425,
+    "hamming_loss": 0.0756,
+    "subset_accuracy": 0.0279
+  },
+  {
+    "model_name": "Decision Tree Classifier",
+    "micro_precision": 0.1792,
+    "micro_recall": 0.2613,
+    "micro_f1": 0.2126,
+    "macro_precision": 0.1354,
+    "macro_recall": 0.2037,
+    "macro_f1": 0.1342,
+    "weighted_f1": 0.2424,
+    "hamming_loss": 0.152,
+    "subset_accuracy": 0.0115
+  }
+]
